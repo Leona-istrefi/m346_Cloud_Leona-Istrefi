@@ -1,5 +1,7 @@
 # Screenshots: 
 
+<hr>
+
 ## Lab 4.1 - EC2
 
 ### HTML-Seite, inkl. URL
@@ -15,6 +17,8 @@
 ### Security-Group: Liste der Inbound-Regeln.
 ![image](https://github.com/user-attachments/assets/20632cd5-0648-41dc-b8bd-4a8ccbc450a8)
 
+<hr>
+
 ## b) Lab 4.2 - S3
 
 ###  Liste der Buckets.
@@ -28,6 +32,21 @@
 
 ### Eigenschaften von "Static website hosting".
 ![image](https://github.com/user-attachments/assets/2ef8c9db-cf81-4559-b012-da8c4c93c6fd)
+
+<hr>
+
+## B) Zugriff mit SSH-Key (40%)
+
+### ssh-Befehl und des Resultats unter Verwendung des ersten Schlüssels
+![image](https://github.com/user-attachments/assets/15e9b28c-f95a-4c57-83b7-74362ee937de)
+
+### ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels
+![image](https://github.com/user-attachments/assets/ff73d4cc-d83e-4f71-bbc6-93d823fcb0a8)
+
+### Instanz-Detail (oder Liste), so dass der verwendete Schlüssel sichtbar ist
+![image](https://github.com/user-attachments/assets/46cf9505-5707-4573-86ca-3209668d33ee)
+
+
 
 
 
