@@ -16,5 +16,11 @@
 ### Replatforming 
 ![image](https://github.com/user-attachments/assets/2307f64b-7715-4fdb-9c55-26a0eb1dc0fa)
 
-<p> Ich habe 2 Instancen gebraucht. Einmal Dyno und einmal POstgres. Diese habe ich dan auf die oberen Parameter angepasst. </p>
+<p> Ich habe 2 Instancen gebraucht. Einmal Dyno und einmal Postgres. Diese habe ich dan auf die oberen Parameter angepasst. </p>
+
+### REpurchasing 
+
+#### Zoho CRM 
+![image](https://github.com/user-attachments/assets/58f90662-3a4b-4ac4-957e-eb5bac7daa06)
+
 
