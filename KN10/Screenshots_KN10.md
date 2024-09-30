@@ -73,6 +73,7 @@
   <ul> Abhängigkeit von Anbieter </ul>
 </ls>
 
+
 ### Wahl: IaaS 
 ##### Begründung: 
 Kontrolle: 
