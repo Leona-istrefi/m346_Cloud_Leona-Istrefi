@@ -92,3 +92,22 @@ Bei IaaS sind Sie für die Sicherheit der Infrastruktur (z.B. Firewalls, Betrieb
 
 Verfügbarkeit: 
 <p> Bei IaaS müssen Sie selbst die Hochverfügbarkeit Ihrer Server sicherstellen, z.B. durch den Einsatz von Load Balancern oder Redundanz.</p>
+
+
+## B) Interpretation der Resultate
+
+### Unterschied
+Rehosting: 
+<p> Anwendungen werden ohne Änderungen in die Cloud verschoben, um schnell von der Cloud-Infrastruktur zu profitieren (auch als "Lift and Shift" bekannt). </p>
+
+Replatforming: 
+<p> Anwendungen werden mit minimalen Änderungen in die Cloud migriert, um Cloud-native Dienste zu nutzen, ohne die Architektur grundlegend zu ändern.</p>
+
+Repurchasing: 
+<p> Bestehende Anwendungen werden durch SaaS-Lösungen ersetzt, um das Infrastrukturmanagement zu eliminieren und standardisierte Software-Dienste zu nutzen.</p>
+
+### Kostenvergleich 
+Günstigstes: 
+Kurzfristig: <p> Rehosting ist oft die billigste Option, da es keine umfangreichen Anpassungen erfordert. Man bezahlt nur für die Cloud-Ressourcen  </p> 
+Langfristig: <p> Repurchasing kann günstiger sein, da keine langfristigen Infrastrukturkosten und Wartung anfallen. Die Kosten bestehen lediglich aus SaaS-Abonnements </p> 
+
