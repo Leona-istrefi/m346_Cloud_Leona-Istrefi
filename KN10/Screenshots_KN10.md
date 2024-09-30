@@ -20,10 +20,10 @@
 
 ### REpurchasing 
 
-#### Zoho CRM 
+#### Sales 
 ![image](https://github.com/user-attachments/assets/58f90662-3a4b-4ac4-957e-eb5bac7daa06)
 
-### Sales 
+### Zoho CRM  
 ![image](https://github.com/user-attachments/assets/f20d84c6-0aa7-4347-bfb2-27a920cf9374)
 
 
