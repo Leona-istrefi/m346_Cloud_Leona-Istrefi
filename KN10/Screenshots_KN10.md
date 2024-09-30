@@ -26,4 +26,5 @@
 ### Zoho CRM  
 ![image](https://github.com/user-attachments/assets/f20d84c6-0aa7-4347-bfb2-27a920cf9374)
 
+<p> Ich würde Zoho nehmen, da es günstiger ist als Sales.</p>
 
