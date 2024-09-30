@@ -84,3 +84,10 @@ Skalierbarkeit:
 Kosten: 
 <p> IaaS ist für einfache Webanwendungen und Datenbankserver oft günstiger als PaaS, da Sie nur für die genutzte Infrastruktur zahlen und keine zusätzlichen PaaS-Dienste benötigen.</p>
 
+### Zusatz: 
+Sicherheit: 
+<p> 
+Bei IaaS sind Sie für die Sicherheit der Infrastruktur (z.B. Firewalls, Betriebssystem-Updates) verantwortlich, während dies bei SaaS und PaaS größtenteils vom Anbieter übernommen wird. </p>
+
+Verfügbarkeit: 
+<p> Bei IaaS müssen Sie selbst die Hochverfügbarkeit Ihrer Server sicherstellen, z.B. durch den Einsatz von Load Balancern oder Redundanz.</p>
