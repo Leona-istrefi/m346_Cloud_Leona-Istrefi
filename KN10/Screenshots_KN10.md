@@ -60,6 +60,7 @@
 
 #### PaaS 
 <p> PaaS stellt eine Plattform bereit, auf der Entwickler Anwendungen erstellen, testen und betreiben. Die Infrastruktur wird vom Anbieter verwaltet, aber Entwickler kontrollieren Anwendungen und Daten.</p>
+
 ##### Vorteile 
 <ul>
   <ls> Schnelle Entwicklung  </ls>
