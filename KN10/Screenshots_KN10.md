@@ -32,49 +32,49 @@
 <p> SaaS stellt Anwendungen bereit, die von einem Drittanbieter verwaltet werden. Der Nutzer greift über das Internet zu, ohne sich um Infrastruktur oder Plattform zu kümmern. </p>
 
 ##### Vorteile 
-<ul>
-  <ls> Keine Updates erforderlich </ls>
-  <ls> Sofort nutzbar </ls>
-</ul>
+<ls>
+  <ul> Keine Updates erforderlich </ul>
+  <ul> Sofort nutzbar <ul>
+<ls>
 
 ##### Nachteile 
-<ul>
-  <ls> Wenig Kontrolle über Daten  </ls>
-  <ls> Abhängig vom Anbieter </ls>
-</ul>
+<ls>
+  <ul> Wenig Kontrolle über Daten  </ul>
+  <ul> Abhängig vom Anbieter </ul>
+</ls>
 
 #### IaaS 
 <p> IaaS bietet virtuelle Infrastruktur (Server, Netzwerke, Speicher), die Benutzer selbst verwalten. Sie haben Kontrolle, müssen sich aber um Betriebssysteme, Anwendungen und Wartung kümmern.</p>
 
 ##### Vorteile 
-<ul>
-  <ls> Hohe Kontrolle  </ls>
-  <ls> Geeignet für Unternehmen, die eigene Anwendungen hosten wollen. </ls>
-</ul>
+<ls>
+  <ul> Hohe Kontrolle  </ul>
+  <ul> Geeignet für Unternehmen, die eigene Anwendungen hosten wollen </ul>
+</ls>
 
 ##### Nachteile 
-<ul>
-  <ls> Erfordert technisches Know-how  </ls>
-  <ls>Komplexere Wartung und höhere Verantwortung </ls>
-</ul>
+<ls>
+  <ul> Erfordert technisches Know-how  </ul>
+  <ul>Komplexere Wartung und höhere Verantwortung </ul>
+</ls>
 
 #### PaaS 
 <p> PaaS stellt eine Plattform bereit, auf der Entwickler Anwendungen erstellen, testen und betreiben. Die Infrastruktur wird vom Anbieter verwaltet, aber Entwickler kontrollieren Anwendungen und Daten.</p>
 
 ##### Vorteile 
-<ul>
-  <ls> Schnelle Entwicklung  </ls>
-  <ls> Keine Verwaltung der Infrastruktur </ls>
-</ul>
+<ls>
+  <ul> Schnelle Entwicklung  </ul>
+  <ul> Keine Verwaltung der Infrastruktur </ul>
+</ls>
 
 ##### Nachteile 
-<ul>
-  <ls> Weniger Kontrolle über infrastruktur </ls>
-  <ls> Abhängigkeit von Anbieter </ls>
-</ul>
+<ls>
+  <ul> Weniger Kontrolle über infrastruktur </ul>
+  <ul> Abhängigkeit von Anbieter </ul>
+</ls>
 
 ### Wahl: IaaS 
-###### Begründung: 
+##### Begründung: 
 Kontrolle: 
 <p> IaaS ist ideal, da Sie Web- und Datenbank-Server flexibel nach Ihren Bedürfnissen konfigurieren können. </p>
 
