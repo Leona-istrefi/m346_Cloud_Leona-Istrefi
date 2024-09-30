@@ -107,7 +107,11 @@ Repurchasing:
 <p> Bestehende Anwendungen werden durch SaaS-Lösungen ersetzt, um das Infrastrukturmanagement zu eliminieren und standardisierte Software-Dienste zu nutzen.</p>
 
 ### Kostenvergleich 
-Günstigstes: 
-Kurzfristig: <p> Rehosting ist oft die billigste Option, da es keine umfangreichen Anpassungen erfordert. Man bezahlt nur für die Cloud-Ressourcen  </p> 
-Langfristig: <p> Repurchasing kann günstiger sein, da keine langfristigen Infrastrukturkosten und Wartung anfallen. Die Kosten bestehen lediglich aus SaaS-Abonnements </p> 
-
+Günstigstes: <br>
+Kurzfristig:
+<p> Rehosting ist oft die billigste Option, da es keine umfangreichen Anpassungen erfordert. Man bezahlt nur für die Cloud-Ressourcen  </p> 
+Langfristig:
+<p> Repurchasing kann günstiger sein, da keine langfristigen Infrastrukturkosten und Wartung anfallen. Die Kosten bestehen lediglich aus SaaS-Abonnements </p> 
+<br>
+Teuerste: <br>
+<p> Replatforming ist in der Regel die teuerste Option, da es sowohl Infrastruktur- als auch Plattformdienste nutzt und Anpassungen erfordert. </p>
