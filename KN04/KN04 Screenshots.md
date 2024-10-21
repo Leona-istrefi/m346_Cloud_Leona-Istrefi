@@ -35,7 +35,23 @@ DBServer:
 ![image](https://github.com/user-attachments/assets/d883707b-a086-47a6-a438-902fc63470cd)
 
 ### Instanzen erstellen
+
+
+
+
+
 ### Datei Anpassungen
+##### Ubuntu 
+![Screenshot 2024-10-21 104924](https://github.com/user-attachments/assets/96460341-e5d1-40de-9af5-4551ccdbb9df)
+
+##### Info.php
+![Screenshot 2024-10-21 104937](https://github.com/user-attachments/assets/e4e7be8c-49eb-4908-883d-6307d883362f)
+
+#### db.php 
+![Screenshot 2024-10-21 105921](https://github.com/user-attachments/assets/41327624-6e50-4c42-884d-8fbbdde945d5)
+
+
+
 
 
 
