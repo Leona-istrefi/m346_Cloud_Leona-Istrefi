@@ -1,0 +1,25 @@
+#cloud-config
+
+# Benutzerkonfiguration
+users:
+  - name: ubuntu               # Name des Benutzers
+    sudo: ALL=(ALL) NOPASSWD:ALL  # Der Benutzer hat sudo-Rechte ohne Passwortabfrage
+    groups: users, admin       # Der Benutzer gehört zu den Gruppen 'users' und 'admin'
+    home: /home/ubuntu         # Heimatverzeichnis des Benutzers
+    shell: /bin/bash           # Standard-Shell des Benutzers
+    ssh_authorized_keys:       # Autorisierte SSH-Schlüssel für den Benutzer
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC0WGP1EZykEtv5YGC9nMiPFW3U3DmZNzKFO5nEu6uozEHh4jLZzPNHSrfFTuQ2GnRDSt+XbOtTLdcj26+iPNiFoFha42aCIzYjt6V8Z+SQ9pzF4jPPzxwXfDdkEWylgoNnZ+4MG1lNFqa8aO7F62tX0Yj5khjC0Bs7Mb2cHLx1XZaxJV6qSaulDuBbLYe8QUZXkMc7wmob3PM0kflfolR3LE7LResIHWa4j4FL6r5cQmFlDU2BDPpKMFMGUfRSFiUtaWBNXFOWHQBC2+uKmuMPYP4vJC9sBgqMvPN/X2KyemqdMvdKXnCfrzadHuSSJYEzD64Cve5Zl9yVvY4AqyBD aws-key # Beispiel für einen autorisierten SSH-Schlüssel 
+
+# Passwortauthentifizierung über SSH deaktivieren
+ssh_pwauth: false
+
+# Root-Zugriff nicht deaktivieren
+disable_root: false 
+
+# Systempakete aktualisieren
+package_update: true
+
+# Liste der zu installierenden Pakete
+packages:
+  - curl    # Tool zum Abrufen von Dateien über verschiedene Protokolle
+  - wget    # Tool zum Herunterladen von Dateien aus dem Internet
