@@ -11,3 +11,5 @@
 
 #### Screenshot mit dem ssh-Befehl und des Resultats unter Verwendung des zweiten Schlüssels.
 ![image](https://github.com/user-attachments/assets/03306780-223b-4479-b3d7-4126b09bb093)
+
+#### Screenshot mit dem Auszug aus dem Cloud-Init-Log. Der Befehl den Sie aufgerufen haben und der obere Teil des Logs sollten sichtbar sein. Sie müssen nicht das gesamte Log abgeben.
