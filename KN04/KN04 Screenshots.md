@@ -36,8 +36,14 @@ DBServer:
 
 ### Instanzen erstellen
 
+##### Gestoppte Instanzen 
+![image](https://github.com/user-attachments/assets/63706b5f-4402-414c-aa95-41ebe14c22bf)
 
+##### Subnetz Webserver
+![image](https://github.com/user-attachments/assets/391000e6-7a1b-4e9b-b1b8-da39d52b92ac)
 
+##### Subnetz DB
+![image](https://github.com/user-attachments/assets/c0905354-c015-4326-8830-ea2779ce9237)
 
 
 ### Datei Anpassungen
