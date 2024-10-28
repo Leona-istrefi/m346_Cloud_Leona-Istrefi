@@ -1,9 +1,21 @@
 #cloud-config
+users:
+  - name: ubuntu               # Name des Benutzers
+    sudo: ALL=(ALL) NOPASSWD:ALL  # Der Benutzer hat sudo-Rechte ohne Passwortabfrage
+    groups: users, admin       # Der Benutzer gehört zu den Gruppen 'users' und 'admin'
+    home: /home/ubuntu         # Heimatverzeichnis des Benutzers
+    shell: /bin/bash           # Standard-Shell des Benutzers
+    ssh_authorized_keys:       # Autorisierte SSH-Schlüssel für den Benutzer
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCLIezEweG9sEM9nFZS6grKOLs1hNNjGCjX8o4M196vQbkQwH4SEa1vn9hfR7nK/nM7spaczYPyXdLcrMb+7Bd3JYg1O5U4euEgS94WIdO2s4kOirtqu2HuvI0wiR19jWoyUFwmtNObhomDSb6spWYyEcGWpCZN9opJWZiFIATWbBP65TfwKuJO8i3uHSqYC0GWcW7eSn656F6D3mgXoyx4+otDcRJOWQKfhGqUZyJM68wZKbHnvjI50J3ZnkW6Gu6Fn77IdX8U4CS0//XjYYBONhtRoY6LRz98covesT5mkGKKnT9Ci200M21fklsh/X8bKjudYZXJKa+NK0ariZBt aws-key # Mein public Key
+
+# Passwortauthentifizierung über SSH deaktivieren
+ssh_pwauth: false
+
 package_update: true
 packages:
   - mariadb-server
  
 runcmd:
   - sudo sed -i 's/127.0.0.1/0.0.0.0/g' /etc/mysql/mariadb.conf.d/50-server.cnf
+  - echo "GRANT ALL ON *.* TO 'admin'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;" | mysql -u root 
   - sudo systemctl restart mariadb
-  - echo "GRANT ALL ON *.* TO 'admin'@'%' IDENTIFIED BY 'password' WITH GRANT OPTION;" | mysql -u root
